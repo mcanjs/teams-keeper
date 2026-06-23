@@ -57,7 +57,7 @@ func getShortcut() string {
 func moveMouse() {
 	x, y := robotgo.Location()
 
-	robotgo.MoveSmooth(x+1, y, .05, .05)
+	robotgo.MoveSmooth(x+50, y+50, .05, .05)
 	robotgo.MoveSmooth(x, y, .05, .05)
 
 	currentTime := time.Now().Format("15:04:05")
