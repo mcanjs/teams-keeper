@@ -1,0 +1,12 @@
+main
+teams-keeper
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.log
+
+# IDE
+.idea/
+.vscode/
